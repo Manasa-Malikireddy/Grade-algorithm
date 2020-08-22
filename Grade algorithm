@@ -1,0 +1,19 @@
+Algorithm:-
+Step-1: Start grading
+Step-2: Take float input marks of all subjects as S1,S2,S3,S4,S5,S6 repectively
+Step-3: Set tot:=S1+S2+S3+S4+S5+S6
+Step-4: Set percentage:=(tot/600)*100
+Step-5: IF percentage>=90 do
+            print GRADE-A
+        ELSEIF percentage>=80 do
+            print GRADE-B
+        ELSEIF percentage>=70 do
+            print GRADE-C
+        ELSEIF percentage>=60 do
+            print GRADE-D
+        ELSEIF percentage>=50 do
+            print JUST PASS
+        ELSE
+            print FAIL
+        END
+Step-6: End grading
